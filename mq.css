@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+div{
+    min-height: 50vh;
+    font-size: calc(.4rem + 1vw);
+}
+
+div h1{
+}
+/* @media (max-width: 800px) {
+    body{
+        background-color: rgb(84, 142, 218);
+    }
+
+    html{
+        font-size: 50%;
+    }
+} */
