@@ -15,6 +15,7 @@
 
 html{
     font-size: 62.5%;
+    color: white;
 }
 
 html, body{
@@ -26,31 +27,29 @@ html, body{
     width: 80%;
     margin: auto;
     background: cadetblue;
-    position: relative;
 }
 
 .box1, .box2, .box3{
+    position: relative;
     background: yellow;
-    width: 20%;
+    width: 15%;
     height: 20%;
+}
+
+.box h1{
+    position: absolute;
+    bottom: 0%;
+    font-size: calc( 2rem + (1vw));
+}
+
+.box1{
+    background: black;
 }
 
 .box2{
     background: blue;
-    transform: translate(100%);
-    position: relative;
-    top: 2rem;
 }
 
-.box3{
-    background: red;
-}
-
-.box1{
-    position: absolute;
-    left: 0%;
-    top: 0%;
-}
 
 .text-section{
     font-size: 1.5rem;
