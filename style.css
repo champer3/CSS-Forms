@@ -23,11 +23,15 @@ html, body{
 
 .container{
     border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box{
     height: 10rem;
     width: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1{
